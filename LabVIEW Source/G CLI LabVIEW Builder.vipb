@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-07-09 15:26:28" Modified_Date="2019-07-09 15:47:23" Creator="James McNally" Comments="" ID="6138e854f09ed7aae0ef18f140d2e38a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-07-09 15:26:28" Modified_Date="2019-07-09 16:42:20" Creator="James McNally" Comments="" ID="e83864559bd9eff0c5d24da5076ee3f6">
   <Library_General_Settings>
     <Package_File_Name>Wiresmith_Technology_lib_G_CLI_LabVIEW_Builder</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>0.1.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -16,7 +16,9 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <Additional_External_Dependencies>wiresmith_technology_lib_g_cli &gt;=2.1.0.1520</Additional_External_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -120,9 +122,6 @@
       <Exclusions>
         <Path>G CLI LvBuild.lvproj</Path>
       </Exclusions>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
@@ -236,7 +235,7 @@
         <Path>lvBuild.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AC980564B18440C2CEBFF63B82C253A3</GUID>
+      <GUID>D630E6D84467813293D2E64E094FF14A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -285,7 +284,7 @@
         <Path>lvBuild SubVIs\Version Updates.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>13D6F4490D29A56E2EC64D48E498D5C6</GUID>
+      <GUID>81E16D7504D89074C636CBD1BD5842A5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

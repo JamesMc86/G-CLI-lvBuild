@@ -6,7 +6,9 @@ A LabVIEW build tool for the G CLI interface
 ## Optional
 
 -buildNumber: Sets the build number for the specification, keeping the others as they already are.
+
 -versionNubmer: Sets the full version number in the format "d.d.d.d"
+
 -target: Name of project target to build for. Defaults to "My Computer"
 
 ## Required
