@@ -1,7 +1,11 @@
 # G-CLI-lvBuild
 A LabVIEW build tool for the G CLI interface
 
-# Parameters
+# Requirements
+
+* LabVIEW 2014 or higher.
+
+# lvBuild Command
 
 ## Optional
 
@@ -19,5 +23,15 @@ A LabVIEW build tool for the G CLI interface
 ## Example Call
 
 g-cli --lv-ver 2015 lvBuild -- -buildNumber 4 "LabVIEW Source\MyProject.lvproj" myExe
+
+## Usage Notes
+
+### LabVIEW FPGA
+
+This does not currently support FPGA builds. This is something we will look into as part of this in the future or an alternative tool.
+
+### Build Location
+
+By default the build location maybe the level above the project.
 
 
