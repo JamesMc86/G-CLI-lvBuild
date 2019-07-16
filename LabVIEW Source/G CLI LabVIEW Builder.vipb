@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-07-09 15:26:28" Modified_Date="2019-07-12 10:53:40" Creator="James McNally" Comments="" ID="fc5dd9e5b7e84714151d03402f01f8b4">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-07-09 15:26:28" Modified_Date="2019-07-16 12:44:52" Creator="James McNally" Comments="" ID="d47f20fca28a067a01f6591c8d5b600a">
   <Library_General_Settings>
     <Package_File_Name>Wiresmith_Technology_lib_G_CLI_LabVIEW_Builder</Package_File_Name>
-    <Library_Version>0.1.0.7</Library_Version>
+    <Library_Version>0.2.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -127,6 +127,9 @@
       </Namespace_Overrides>
       <Exclusions>
         <Path>G CLI LvBuild.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Tests</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\LICENSE.txt</License_Agreement_Filepath>
